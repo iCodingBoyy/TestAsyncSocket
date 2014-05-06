@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	8126E0FB13A9A12400D49B16 /* TestUdpClient */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TestUdpClient;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8126E11413A9A13700D49B16 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8126E11513A9A13700D49B16 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8126E14113A9A39E00D49B16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 814FA5B513A8B637003E5253 /* CircleBuffer.h */;
+		name = "CircleBuffer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 180;
+	};
+	8126E14213A9A39E00D49B16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 814FA5B413A8B62B003E5253 /* NetStream.h */;
+		name = "NetStream.h: 11";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 0;
+	};
+	814BEB6F13A9A428002A18EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 814FA5B213A8B225003E5253 /* PackageDefine.h */;
+		name = "PackageDefine.h: 146";
+		rLen = 0;
+		rLoc = 2460;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 2296;
+	};
+	814FA5B213A8B225003E5253 /* PackageDefine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 2288}}";
+			sepNavSelRange = "{2460, 0}";
+			sepNavVisRange = "{2296, 692}";
+		};
+	};
+	814FA5B413A8B62B003E5253 /* NetStream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 3263}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{0, 707}";
+		};
+	};
+	814FA5B513A8B637003E5253 /* CircleBuffer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{180, 636}";
+		};
+	};
+	817FEFFB139B38C8000DFB2B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8126E0FB13A9A12400D49B16 /* TestUdpClient */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 817FF003139B38C8000DFB2B /* TestUdpClient */;
+		addToTargets = (
+			817FF003139B38C8000DFB2B /* TestUdpClient */,
+		);
+		codeSenseManager = 8126E11513A9A13700D49B16 /* Code sense */;
+		executables = (
+			8126E0FB13A9A12400D49B16 /* TestUdpClient */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					687,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329884662;
+			PBXWorkspaceStateSaveDate = 329884662;
+		};
+		perUserProjectItems = {
+			8126E14113A9A39E00D49B16 /* PBXTextBookmark */ = 8126E14113A9A39E00D49B16 /* PBXTextBookmark */;
+			8126E14213A9A39E00D49B16 /* PBXTextBookmark */ = 8126E14213A9A39E00D49B16 /* PBXTextBookmark */;
+			814BEB6F13A9A428002A18EE /* PBXTextBookmark */ = 814BEB6F13A9A428002A18EE /* PBXTextBookmark */;
+			81807F0013A9A3EA003E0977 /* PBXTextBookmark */ = 81807F0013A9A3EA003E0977 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8126E11413A9A13700D49B16 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	817FF003139B38C8000DFB2B /* TestUdpClient */ = {
+		activeExec = 0;
+		executables = (
+			8126E0FB13A9A12400D49B16 /* TestUdpClient */,
+		);
+	};
+	81807F0013A9A3EA003E0977 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 814FA5B213A8B225003E5253 /* PackageDefine.h */;
+		name = "PackageDefine.h: 149";
+		rLen = 0;
+		rLoc = 2518;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 2296;
+	};
+}

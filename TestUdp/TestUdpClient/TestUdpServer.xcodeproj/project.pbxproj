@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817FEFDD139B36DF000DFB2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817FEFDC139B36DF000DFB2B /* UIKit.framework */; };
+		817FEFDF139B36DF000DFB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817FEFDE139B36DF000DFB2B /* Foundation.framework */; };
+		817FEFE1139B36DF000DFB2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817FEFE0139B36DF000DFB2B /* CoreGraphics.framework */; };
+		817FEFE7139B36DF000DFB2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817FEFE5139B36DF000DFB2B /* InfoPlist.strings */; };
+		817FEFEA139B36DF000DFB2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817FEFE9139B36DF000DFB2B /* main.m */; };
+		817FEFED139B36DF000DFB2B /* TestUdpServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817FEFEC139B36DF000DFB2B /* TestUdpServerAppDelegate.m */; };
+		817FEFF0139B36DF000DFB2B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817FEFEE139B36DF000DFB2B /* MainWindow.xib */; };
+		817FEFF8139B3701000DFB2B /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 817FEFF7139B3701000DFB2B /* AsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		817FEFD8139B36DF000DFB2B /* TestUdpServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUdpServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817FEFDC139B36DF000DFB2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		817FEFDE139B36DF000DFB2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		817FEFE0139B36DF000DFB2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		817FEFE4139B36DF000DFB2B /* TestUdpServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUdpServer-Info.plist"; sourceTree = "<group>"; };
+		817FEFE6139B36DF000DFB2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		817FEFE8139B36DF000DFB2B /* TestUdpServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestUdpServer-Prefix.pch"; sourceTree = "<group>"; };
+		817FEFE9139B36DF000DFB2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		817FEFEB139B36DF000DFB2B /* TestUdpServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUdpServerAppDelegate.h; sourceTree = "<group>"; };
+		817FEFEC139B36DF000DFB2B /* TestUdpServerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUdpServerAppDelegate.m; sourceTree = "<group>"; };
+		817FEFEF139B36DF000DFB2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		817FEFF6139B3701000DFB2B /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		817FEFF7139B3701000DFB2B /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817FEFD5139B36DF000DFB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817FEFDD139B36DF000DFB2B /* UIKit.framework in Frameworks */,
+				817FEFDF139B36DF000DFB2B /* Foundation.framework in Frameworks */,
+				817FEFE1139B36DF000DFB2B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817FEFCD139B36DF000DFB2B = {
+			isa = PBXGroup;
+			children = (
+				817FEFE2139B36DF000DFB2B /* TestUdpServer */,
+				817FEFDB139B36DF000DFB2B /* Frameworks */,
+				817FEFD9139B36DF000DFB2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		817FEFD9139B36DF000DFB2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817FEFD8139B36DF000DFB2B /* TestUdpServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817FEFDB139B36DF000DFB2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817FEFDC139B36DF000DFB2B /* UIKit.framework */,
+				817FEFDE139B36DF000DFB2B /* Foundation.framework */,
+				817FEFE0139B36DF000DFB2B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		817FEFE2139B36DF000DFB2B /* TestUdpServer */ = {
+			isa = PBXGroup;
+			children = (
+				817FEFF6139B3701000DFB2B /* AsyncUdpSocket.h */,
+				817FEFF7139B3701000DFB2B /* AsyncUdpSocket.m */,
+				817FEFEB139B36DF000DFB2B /* TestUdpServerAppDelegate.h */,
+				817FEFEC139B36DF000DFB2B /* TestUdpServerAppDelegate.m */,
+				817FEFEE139B36DF000DFB2B /* MainWindow.xib */,
+				817FEFE3139B36DF000DFB2B /* Supporting Files */,
+			);
+			path = TestUdpServer;
+			sourceTree = "<group>";
+		};
+		817FEFE3139B36DF000DFB2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817FEFE4139B36DF000DFB2B /* TestUdpServer-Info.plist */,
+				817FEFE5139B36DF000DFB2B /* InfoPlist.strings */,
+				817FEFE8139B36DF000DFB2B /* TestUdpServer-Prefix.pch */,
+				817FEFE9139B36DF000DFB2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817FEFD7139B36DF000DFB2B /* TestUdpServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817FEFF3139B36DF000DFB2B /* Build configuration list for PBXNativeTarget "TestUdpServer" */;
+			buildPhases = (
+				817FEFD4139B36DF000DFB2B /* Sources */,
+				817FEFD5139B36DF000DFB2B /* Frameworks */,
+				817FEFD6139B36DF000DFB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUdpServer;
+			productName = TestUdpServer;
+			productReference = 817FEFD8139B36DF000DFB2B /* TestUdpServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817FEFCF139B36DF000DFB2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "e-linkway.com";
+			};
+			buildConfigurationList = 817FEFD2139B36DF000DFB2B /* Build configuration list for PBXProject "TestUdpServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 817FEFCD139B36DF000DFB2B;
+			productRefGroup = 817FEFD9139B36DF000DFB2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817FEFD7139B36DF000DFB2B /* TestUdpServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817FEFD6139B36DF000DFB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817FEFE7139B36DF000DFB2B /* InfoPlist.strings in Resources */,
+				817FEFF0139B36DF000DFB2B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817FEFD4139B36DF000DFB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817FEFEA139B36DF000DFB2B /* main.m in Sources */,
+				817FEFED139B36DF000DFB2B /* TestUdpServerAppDelegate.m in Sources */,
+				817FEFF8139B3701000DFB2B /* AsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		817FEFE5139B36DF000DFB2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817FEFE6139B36DF000DFB2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		817FEFEE139B36DF000DFB2B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817FEFEF139B36DF000DFB2B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817FEFF1139B36DF000DFB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		817FEFF2139B36DF000DFB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		817FEFF4139B36DF000DFB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestUdpServer/TestUdpServer-Prefix.pch";
+				INFOPLIST_FILE = "TestUdpServer/TestUdpServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		817FEFF5139B36DF000DFB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestUdpServer/TestUdpServer-Prefix.pch";
+				INFOPLIST_FILE = "TestUdpServer/TestUdpServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817FEFD2139B36DF000DFB2B /* Build configuration list for PBXProject "TestUdpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817FEFF1139B36DF000DFB2B /* Debug */,
+				817FEFF2139B36DF000DFB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817FEFF3139B36DF000DFB2B /* Build configuration list for PBXNativeTarget "TestUdpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817FEFF4139B36DF000DFB2B /* Debug */,
+				817FEFF5139B36DF000DFB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817FEFCF139B36DF000DFB2B /* Project object */;
+}
